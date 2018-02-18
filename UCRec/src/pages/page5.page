@@ -1,0 +1,5 @@
+<apex:page standardController="Account" >
+    <Apex:pageBlock title="Account info:{!account.name}">
+    <apex:detail relatedList="false" title="false"/>
+    </Apex:pageBlock> 
+</apex:page>

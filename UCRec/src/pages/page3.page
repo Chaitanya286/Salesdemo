@@ -1,0 +1,14 @@
+<apex:page >
+  
+  <h1>Apex Expressions</h1>
+  <apex:pageBlock title="User">
+      <apex:pageBlockSection >
+              <h1>Welcome {!$User.FirstName}.{!$User.LastName}, enjoy your exp</h1>
+      </apex:pageBlockSection>
+      <apex:pageBlockSection title="Date">
+          <p> Today is {!Today()}</p>
+          <p> Date and Time : {!Now()}</p>
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+  
+</apex:page>

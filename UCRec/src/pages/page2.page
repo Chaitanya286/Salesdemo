@@ -1,0 +1,14 @@
+<apex:page >
+  <apex:pageBlock title="Emp details">
+      <apex:pageBlockSection title="Official">
+      <p>Employee #:12234</p>
+      <p>Name: <i>Krish</i></p>
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+  <apex:pageBlock title="Personal">
+   <apex:pageBlockSection title="Official">
+      <p>Mobile 8978112041</p>
+      <p>S/o <i>Satyamurthy</i></p>
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>
